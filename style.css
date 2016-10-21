@@ -61,6 +61,46 @@ body, html {
   background: rgba(0,0,0,0.2);
 }
 
+.caption {
+  position: absolute;
+  width: 600px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 350px;
+  text-align: center;
+}
+
+.floatingWords {
+  position: relative;
+  display: inline;
+  font-size: 60px;
+  font-weight: 200;
+  top: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+}
+
+#firstWord {
+  color: #2e468b;
+  color: #0097f1;
+  top: 50px;
+}
+#secondWord {
+  color: #2e468b;
+  color: #0097f1;
+  top: 200px;
+}
+#thirdWord {
+  color: #2e468b;
+  color: #0097f1;
+  top: 350px;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
     opacity: 0.65;
