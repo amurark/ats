@@ -1,0 +1,202 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.title {
+  position: absolute;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  z-index: 1;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.menuOptions {
+  position: relative;
+  float: right;
+  top: 0;
+  margin: 0;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.menuOptions li {
+  top: 0;
+  vertical-align: top;
+  height: inherit;
+  line-height: 40px;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.menuOptions li a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.menuOptions li:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url(kayak.jpg);
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url(man.jpg);
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url(balloon.jpg);
+    min-height: 400px;
+}
+
+.secondPara {
+  color:#ddd;
+  background-color:#282E34;
+  background-color: #34353d;
+  text-align:center;
+  padding:80px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.services {
+  top: 0;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 0;
+  text-align: center;
+}
+
+.services li {
+  color: #fff;
+  display: inline-block;
+  width: 33.33%;
+  vertical-align: top;
+}
+
+.iconItem {
+  display: inline-block;
+  font-size: 34px;
+  margin: 30px;
+  line-height: 53px;
+}
+
+.iconWrapper {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid;
+  color: #0097f1;
+  display: inline-block;
+}
+
+.iconText {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  padding-top: 10px;
+  max-width: 80px;
+}
+
+.headers {
+  text-align: center;
+  font-size: 36px;
+}
+
+.reviewText {
+  font-size: 18px;
+}
+
+.footers {
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+}
+
+.thirdPara {
+  color:#ddd;
+  background-color: #34353d;
+  background-color: #fff;
+  text-align:center;
+  padding:80px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.carousal {
+  height: 400px;
+  white-space: nowrap;
+}
+
+.carousal ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.testimonialElements {
+  white-space: normal;
+  color: #777;
+}
+
+.carousal ul li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
